@@ -58,7 +58,7 @@ st.markdown(
 )
 
 # Load the LSTM model
-model = load_model('C:/Users/sajal dhuriya/OneDrive/Desktop/lstm/Stock Prediction.keras')
+model = load_model('Stock Prediction.keras')
 
 # Pre-defined list of popular stock symbols (you can replace this with a more dynamic source)
 stock_symbols = ['AAPL', 'GOOG', 'AMZN', 'TSLA', 'MSFT', 'NFLX', 'META', 'NVDA', 'SPY', 'BABA', 'WMT', 'INTC', 'IBM', 'GOOGL', 'BA', 'DIS', 'PYPL', 'AMD']
